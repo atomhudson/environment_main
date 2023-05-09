@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+          rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+          .dropdown-submenu {
+            position: relative;
+          }
+
+          .dropdown-submenu .dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-top: -1px;
+          }
+        </style>
+      </head>
+      <body>
+        <div class="dropdown">
+          <button
+            class="btn btn-default dropdown-toggle"
+            type="button"
+            data-toggle="dropdown"
+          >
+            Recycle <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#"
+                >Electronics<span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li><a  href="game.html">Video Games & Consoles</a></li>
+                
+                <li><a tabindex="-1" href="ipods.html">iPod & MP3 Players</a></li>
+                <li><a tabindex="-1" href="stereos.html">Stereos & Speakers</a></li>
+                <li><a tabindex="-1" href="floppy.html">Floppy Disks</a></li>
+      
+                <li class="dropdown-submenu"></li>
+              </ul>
+            </li>
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#"
+                >Paper<span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="magazine.html">Magazine & Catalog</a></li>
+                <li><a tabindex="-1" href="paper.html">Paper Bags</a></li>
+                <li><a tabindex="-1" href="notebook.html">Notebooks</a></li>
+                <li><a tabindex="-1" href="newspaper.html">Newspaper</a></li>
+                <li class="dropdown-submenu"></li>
+              </ul>
+            </li>
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#"
+                >Household<span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="diaper.html">Diapers, Pads, Tampons</a></li>
+                <li><a tabindex="-1" href="cosmrtics.html">Cosmetics & Makeup</a></li>
+                <li class="dropdown-submenu"></li>
+              </ul>
+            </li>
+
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#"
+                >Hazadours<span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="paint.html">Paint Thinner</a></li>
+
+                <li class="dropdown-submenu"></li>
+              </ul>
+            </li>
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#"
+                >Glass<span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="glass.html">Colored Glass</a></li>
+                <li class="dropdown-submenu"></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <script>
+          $(document).ready(function () {
+            $(".dropdown-submenu a.test").on("click", function (e) {
+              $(this).next("ul").toggle();
+              e.stopPropagation();
+              e.preventDefault();
+            });
+          });
+        </script>
+      </body>
+    </html>
+  </body>
+</html>
