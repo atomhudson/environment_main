@@ -1,8 +1,5 @@
-Thank you for using our template!
-
-For more awesome templates please visit https://colorlib.com/wp/templates/
-
-Copyright information for the template can't be altered/removed unless you purchase a license.
-More information about the license is available here: https://colorlib.com/wp/licence/
-
-Removing copyright information without the license will result in suspension of your hosting and/or domain name(s).
+![1](https://github.com/atomhudson/environment_main/assets/83460106/2c39dd8e-d4e4-4907-befe-fbeefb5d3d98)
+![3](https://github.com/atomhudson/environment_main/assets/83460106/0a01a87b-93da-40ba-b724-e3c235506f98)
+![5](https://github.com/atomhudson/environment_main/assets/83460106/8716a9b7-9df1-4283-8a41-a4a8995cad62)
+![6](https://github.com/atomhudson/environment_main/assets/83460106/26454788-b594-4409-8af3-4a38e2c8b162)
+![7](https://github.com/atomhudson/environment_main/assets/83460106/2b914430-ba8f-4e52-8fb2-dab329b0e1dc)
