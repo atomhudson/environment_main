@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.green{
+    background-color: rgb(53, 145, 53);
+    height: 300px;
+}
+.green{
+    padding: 0 20rem;
+}
+.green h1 {
+    padding:  3rem;
+    font-size: 3rem;
+}
+
+.green ,h3{
+    padding-top:  1px; 
+     font-size: 3rem;
+}
+
+.photo img ,.bottomtoimage{
+    padding:0 20rem;
+    margin: 3rem;
+}
+
+.bold{
+    padding: 0rem;
+    margin: 0%;
+}
+
+.division h4{
+     padding-top:  1px; 
+    font-size: 2rem;
+}
+
+h6{
+    font-size: 1rem;
+    line-height: 30px;
+}
