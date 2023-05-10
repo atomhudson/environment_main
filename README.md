@@ -1,1 +1,9 @@
 # environment_main
+- ![1](https://github.com/atomhudson/environment_main/assets/83460106/6b92ec80-d1e4-4f08-9f93-287f12945102)
+- ![2](https://github.com/atomhudson/environment_main/assets/83460106/965c600f-ef81-4761-9b2e-e355c3b4c119)
+- ![3](https://github.com/atomhudson/environment_main/assets/83460106/87de4094-b908-45ec-a1e5-d6acf943ee47)
+- ![4](https://github.com/atomhudson/environment_main/assets/83460106/2900850a-473d-4bd2-8fa7-cf4424409b17)
+- ![5](https://github.com/atomhudson/environment_main/assets/83460106/dca29ea8-bd52-4efd-9b51-f1a714adfc0b)
+- ![6](https://github.com/atomhudson/environment_main/assets/83460106/6f0e16b2-eb12-4dad-9e0c-e0a0d60cad3e)
+- ![7](https://github.com/atomhudson/environment_main/assets/83460106/3e3229b2-6644-4296-b4d8-4990a58b1fcb)
+- ![8](https://github.com/atomhudson/environment_main/assets/83460106/339bf3b7-b4a6-430c-977e-54ca3163febe)
