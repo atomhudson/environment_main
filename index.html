@@ -6,7 +6,7 @@
     <title>Environmental</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="manifest" href="site.webmanifest" />
+    <!-- <link rel="manifest" href="site.webmanifest" /> -->
     <link
       rel="shortcut icon"
       type="image/x-icon"
@@ -30,8 +30,26 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="dropdown.html">
     
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+      
+      let onLoad = async()=>{
+        let user = await localStorage.getItem("user");
+        user = await JSON.parse(user);
+
+        if(user){
+          $("#toggle_login").attr("href","contact.html");
+          $("#togglt_login").html("Make a Donation");
+        }else{
+          $("#toggle_login").attr("href","login.html");
+          $("#toggle_login").html("Login/Register");
+        }
+      }
+      window.addEventListener("load",onLoad);
+    </script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  
   <style>
     .dropdown-submenu {
       position: relative;
@@ -171,11 +189,15 @@
                         </ul>
                       </nav>
                     </div>
-                    <!-- Header-btn -->
+                    <!-- Login button or Header-btn -->
                     <div class="header-right-btn d-none d-lg-block ml-20">
-                      <a href="contact.html" class="btn header-btn"
-                        >Make a Donation</a
+                      <a class="btn header-btn"
+                        id="toggle_login"></a
                       >
+                      <!-- <a href="login.html" class="btn header-btn">Login/Register</a> -->
+                    </div>
+                    <div>
+                      </li>
                     </div>
                   </div>
                 </div>
